@@ -216,3 +216,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# ==========================================
+# Ajustes personalizados para el Sprint 7
+# ==========================================
+
+# Ignorar carpetas de configuración local de VS Code
+.vscode/
+
+# Ignorar archivos de datos pesados (El CSV de vehículos)
+vehicles_us.csv
+
+# Opcional: Si tienes más archivos CSV o Excel en el futuro
+*.csv
+*.xlsx
